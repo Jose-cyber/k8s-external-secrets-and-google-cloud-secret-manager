@@ -1,0 +1,8 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: app-cfg
+  namespace: app
+data:
+  PORT: '8080'
+  USER: admin
